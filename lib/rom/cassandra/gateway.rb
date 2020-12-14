@@ -64,8 +64,7 @@ module ROM::Cassandra
     # @return [ROM::Cassandra::Dataset]
     #
     def dataset(name)
-      #@datasets[name.to_sym] = Dataset.new(session, *split(name))
-      @datasets[name.to_sym] = Dataset.new(session, 'foo', 'events')
+      @datasets[name.to_sym] = Dataset.new(session, *split(name))
     end
 
     # Returns the registered dataset
