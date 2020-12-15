@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-#require "rom"
+require "rom"
 
 # Ruby Object Mapper
 #
