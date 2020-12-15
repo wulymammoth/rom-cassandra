@@ -9,7 +9,7 @@ module ROM
     #
     # @see http://semver.org/ Semantic versioning 2.0
     #
-    VERSION = '0.0.3'
+    VERSION = '0.1.0'
 
   end # module Cassandra
 
