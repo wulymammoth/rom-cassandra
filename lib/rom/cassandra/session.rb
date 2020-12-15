@@ -23,7 +23,7 @@ module ROM::Cassandra
     # @param [Hash] options
     #
     def initialize(*options)
-      @uri  = { hosts: ["127.0.0.1"], port: 9042 }
+      @uri  = extract(*options)
       @conn = ::Cassandra.cluster(uri).connect
     end
 
