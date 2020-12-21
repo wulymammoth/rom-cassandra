@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-gemspec
+gem 'query_builder', git: 'https://github.com/wulymammoth/query_builder.git', branch: '0.1.0'
 
-group :metrics do
-  gem "hexx-suit", "~> 2.3" if RUBY_ENGINE == "ruby"
-end
+gemspec
